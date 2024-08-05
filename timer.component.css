@@ -1,0 +1,34 @@
+.timer-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .timer-display {
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .timer-button {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .timer-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .timer-button:active {
+    transform: scale(0.98); /* Slightly shrink the button when clicked */
+  }

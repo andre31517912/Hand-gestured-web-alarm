@@ -1,0 +1,99 @@
+.selected {
+    background-color: #f0f0f0; /* Or any highlight color of your choice */
+    border: 1px solid #ddd;
+    /* Other styling as needed */
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .alarm-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .alarm-list li.selected {
+    background-color: #e0f7fa;
+  }
+  
+  button {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  input[type="datetime-local"],
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+
+  body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #eceff1;
+  }
+  
+  .alarm-list {
+    width: 100%; /* Adjust the width as needed */
+    max-width: 600px; /* Maximum width of the list */
+    margin: auto;
+  }
+  
+  .alarm-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .alarm-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .alarm-list li.selected {
+    background-color: #e0f7fa;
+    border-color: #29b6f6; /* A light blue border for the selected item */
+  }
+  
+  button {
+    border: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  input[type="datetime-local"],
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    width: 100%; /* Full width inputs */
+  }

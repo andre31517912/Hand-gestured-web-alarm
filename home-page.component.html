@@ -1,0 +1,16 @@
+<app-handtracker (onPrediction)="prediction($event)"></app-handtracker>
+<app-alarm></app-alarm>
+<app-timer></app-timer>
+<div [innerHTML]="gesture"></div>
+<div class="gesture-guide">
+    <h2>Gesture Controls</h2>
+    <ul>
+      <li><strong>Open Hand:</strong> Start the timer.</li>
+      <li><strong>Closed Hand:</strong> Pause the timer.</li>
+      <li><strong>Pointing Finger:</strong> Reset the timer.</li>
+      <li><strong>Two Open Hands:</strong> Add an alarm.</li>
+      <li><strong>Two Closed Hands:</strong> Delete an alarm.</li>
+      <li><strong>One Hand Open, One Hand Pointing:</strong> Increment alarm selection.</li>
+      <li><strong>One Hand Open, One Hand Closing:</strong> Decrement alarm selection.</li>
+    </ul>
+  </div>

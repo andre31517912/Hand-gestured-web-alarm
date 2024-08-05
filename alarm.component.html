@@ -1,0 +1,15 @@
+<div class="alarm-list">
+    <h2>Alarms</h2>
+    <ul>
+      <li *ngFor="let alarm of alarms; let i = index" [class.selected]="i === selectedAlarmIndex">
+        {{ getFormattedTime(alarm.time) }} - {{ alarm.label }}
+        <button (click)="onSnoozeAlarm(alarm.id)">Snooze</button>
+        <button (click)="onDeleteAlarm(alarm.id)">Delete</button>
+      </li>
+    </ul>
+    <div class="add-alarm">
+      <input type="datetime-local" [(ngModel)]="newAlarmTime">
+      <input type="text" placeholder="Label" [(ngModel)]="newAlarmLabel">
+      <button (click)="onAddAlarm()">Add Alarm</button>
+    </div>
+  </div>

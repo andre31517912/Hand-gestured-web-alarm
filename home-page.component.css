@@ -1,0 +1,27 @@
+.gesture-guide {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    width: 200px;
+  }
+  
+  .gesture-guide h2 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .gesture-guide ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .gesture-guide li {
+    margin-bottom: 5px;
+    font-size: 0.9em;
+  }
